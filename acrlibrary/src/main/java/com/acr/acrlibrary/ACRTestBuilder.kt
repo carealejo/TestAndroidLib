@@ -5,7 +5,11 @@ import android.content.Intent
 import androidx.annotation.Keep
 import com.acr.acrlibrary.utils.Utils
 
-class ACRTestBuilder {
+class ACRTestBuilder(initText: String) {
+
+    init {
+        Utils.print(initText)
+    }
 
     private val configData: MutableList<String> = mutableListOf()
 
