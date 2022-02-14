@@ -20,4 +20,14 @@
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
 
+-injars      bin/classes
+-outjars     bin/classes-processed.jar
+-libraryjars /usr/local/java/android-sdk/platforms/android-9/android.jar
+
+-android
+-dontpreverify
+-repackageclasses ''
+-allowaccessmodification
+-optimizations !code/simplification/arithmetic
+
 -keep public class com.acr.acrlibrary.ACRTestBuilder
