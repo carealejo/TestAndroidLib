@@ -18,7 +18,7 @@ class ACRTestBuilder {
     }
 
     fun startStartActivity(context: Context) {
-        val intent = Intent(context, StartActivity::class.java)
+        val intent = Intent(context, ACRActivity::class.java)
         intent.putExtra("config", ArrayList(configData))
         context.startActivity(intent)
     }
