@@ -8,12 +8,14 @@ class ACRTestBuilder() {
 
     private val configData: MutableList<String> = mutableListOf()
 
-    fun withTrivia(value: String) {
+    fun withTrivia(value: String): ACRTestBuilder {
         configData.add(value)
+        return this
     }
 
-    fun withQuestion(value: String) {
+    fun withQuestion(value: String): ACRTestBuilder {
         configData.add(value)
+        return this
     }
 
     fun startStartActivity(context: Context) {
