@@ -1,0 +1,1 @@
+-keep, allowobfuscation public class com.acr.acrlibrary.ACRActivity
