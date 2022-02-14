@@ -5,6 +5,7 @@ import android.content.Intent
 import androidx.annotation.Keep
 import com.acr.acrlibrary.utils.Utils
 
+@Keep
 class ACRTestBuilder(initText: String) {
 
     init {
