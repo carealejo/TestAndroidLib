@@ -2,9 +2,8 @@ package com.acr.acrlibrary
 
 import android.content.Context
 import android.content.Intent
-import android.os.Bundle
 
-class ACRTestBuilder() {
+class ACRTestBuilder {
 
     private val configData: MutableList<String> = mutableListOf()
 
